@@ -1,0 +1,37 @@
+{
+  "name": "react_fullstack_dev",
+  "version": "1.0.0",
+  "description": "this is the MERN app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exce babel-node server.js --ignore public/*",
+    "dev": "wecpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stharuma/React_FullStack_Dev.git"
+  },
+  "author": "Suresh Tharuma",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/stharuma/React_FullStack_Dev/issues"
+  },
+  "homepage": "https://github.com/stharuma/React_FullStack_Dev#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "nodemon": "^1.18.1",
+    "webpack": "^4.16.0"
+  }
+}
