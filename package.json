@@ -2,10 +2,10 @@
   "name": "react_fullstack_dev",
   "version": "1.0.0",
   "description": "this is the MERN app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon --exce babel-node server.js --ignore public/*",
-    "dev": "wecpack -wd"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/stharuma/React_FullStack_Dev#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
     "express": "^4.16.3",
     "mongodb": "^3.1.1",
+    "mongoose": "^5.2.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
