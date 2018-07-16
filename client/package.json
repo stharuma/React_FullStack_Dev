@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.3.0",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "set PORT=3006 && react-scripts start",
@@ -13,6 +17,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy":"http://localhost:5000"
-
+  "proxy": "http://localhost:5000"
 }
